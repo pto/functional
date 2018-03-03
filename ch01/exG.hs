@@ -1,4 +1,4 @@
-import Data.Char
+import Data.Char (toLower)
 
 song :: Int -> String
 song n  = if n == 0 then ""
